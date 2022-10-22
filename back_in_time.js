@@ -22,9 +22,9 @@ import * as d3 from 'd3';
 dotenv.config();
 
 let settings = {}
-settings.sdate = "2022-09-20"
-settings.edate = "2022-10-12"
-settings.forceRerun = true // Set to true if you want to re-run scripts even though the files are there. It will not re-harvest uselessly.
+settings.sdate = "2022-07-05"
+settings.edate = "2022-08-31"
+settings.forceRerun = false // Set to true if you want to re-run scripts even though the files are there. It will not re-harvest uselessly.
 
 const startDate = new Date(settings.sdate)
 const endDate = new Date(settings.edate)
