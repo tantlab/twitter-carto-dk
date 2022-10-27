@@ -4,9 +4,9 @@ import { createCanvas, loadImage, ImageData } from "canvas"
 
 let settings = {}
 settings.sdate = "2022-09-30"
-settings.edate = "2022-10-17"
+settings.edate = "2022-10-25"
 settings.framesPerSecond = 30; // FPS (frame rate)
-settings.framesPerImage = 3; // How long in frames does each image stay. 1=quick, 15=slow.
+settings.framesPerImage = 10; // How long in frames does each image stay. 1=quick, 15=slow.
 
 const startDate = new Date(settings.sdate)
 const endDate = new Date(settings.edate)
